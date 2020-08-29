@@ -1,0 +1,41 @@
+.subscribe_banner {
+  background-image: url("../img/subscribe/subscribe.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  p {
+    font-size: 32px;
+    line-height: 48px;
+    padding-top: 312px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+  }
+  .subscribe {
+    max-width: 350px;
+    padding-bottom: 112px;
+    input {
+      height: auto;
+      line-height: 19px;
+      padding-top: 21px;
+      padding-bottom: 20px;
+      padding-left: 16px;
+      padding-right: 57px;
+    }
+  }
+}
+
+
+@media (max-width: 767px) {
+
+    .subscribe_banner {
+    background-image: url("../img/subscribe/subscribe_sm.png");
+    p {
+      font-size: 28px;
+    }
+    .subscribe {
+      input {
+        padding-left: 13.5px;
+        padding-right: 55px;
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+.banner {
+  background-image: url("../img/index/banner.png");
+  width: 1920px;
+  max-width: 100%;
+  height: 870px;
+  background-attachment: fixed;
+  span {
+    font-size: 24px;
+  }
+}
+
+.pdspace {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.index_btn {
+  display: block;
+  text-align: center;
+  border-radius: 30px;
+  max-width: 350px;
+  box-sizing: border-box;
+}
+.shopnow {
+  font-size: 28px;
+  line-height: 34px;
+  border: 2px solid #ffffff;
+  padding: 13px 0px;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.product_description {
+  padding: 0 110px;
+
+  &_long {
+    padding: 0 110px;
+    div {
+      margin-bottom: 52px;
+    }
+  }
+}
+
+
+.free_tran {
+  font-size: 20px;
+  line-height: 24px;
+  border: 2px solid black;
+  padding: 18px 51px;
+  &:hover {
+    background-color: rgba(211, 211, 211, 0.5);
+  }
+}
+
+.three_col_block {
+  padding: 40px 0;
+}
+
+.soldout {
+  position: relative;
+  img {
+    max-width: 100%;
+  }
+
+  &::after {
+    content: "Sold out";
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 0;
+    color: white;
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* 手機板 */
+  .banner {
+    background-image: url("../img/index/banner_small.png");
+    max-height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    span {
+      font-size: 20px;
+    }
+  }
+  .pdspace {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .product_description {
+    padding: 0 0;
+    &_long {
+      padding: 0 0;
+      div {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+
+
+  .free_tran {
+    padding: 18px 20px;
+  }
+
+  .three_col_block {
+    padding: 32px 0;
+  }
+}

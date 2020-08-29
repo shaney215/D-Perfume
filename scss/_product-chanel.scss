@@ -1,0 +1,29 @@
+
+.added {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.container_padding{
+    padding-bottom: 60px;
+    padding-top: 80px;
+}
+.mbspace80 {
+  margin-bottom: 80px;
+}
+.mbspace_product {
+  margin-bottom: 30px;
+}
+.mbspace40 {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+  .mbspace_product {
+    margin-bottom: 16px;
+  }
+  .container_padding{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+}

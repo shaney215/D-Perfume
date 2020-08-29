@@ -1,0 +1,42 @@
+.lh22px{
+    line-height:22px;
+}
+
+.cust-nav a {
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 2px;
+        background-color: #112233;
+        transition: all .3s;
+        width: 0%;
+    }
+    &:hover::after {
+        width: 100%;
+    }
+}
+
+.form-check-input {
+    display: none;
+    &:checked + label .custom-check-input {
+        background-color: $dbrown;
+        path {
+            display: block;
+        }
+    }
+}
+
+.custom-check-input {
+    border: 1px solid #495057;
+    padding: 2px;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    path {
+        display: none;
+        fill: #fff;
+    }
+}
