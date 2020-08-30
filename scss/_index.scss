@@ -9,10 +9,6 @@
   }
 }
 
-.pdspace {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
 .index_btn {
   display: block;
   text-align: center;
@@ -41,7 +37,6 @@
   }
 }
 
-
 .free_tran {
   font-size: 20px;
   line-height: 24px;
@@ -50,10 +45,6 @@
   &:hover {
     background-color: rgba(211, 211, 211, 0.5);
   }
-}
-
-.three_col_block {
-  padding: 40px 0;
 }
 
 .soldout {
@@ -90,10 +81,7 @@
       font-size: 20px;
     }
   }
-  .pdspace {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
+
   .product_description {
     padding: 0 0;
     &_long {
@@ -104,13 +92,7 @@
     }
   }
 
-
-
   .free_tran {
     padding: 18px 20px;
-  }
-
-  .three_col_block {
-    padding: 32px 0;
   }
 }

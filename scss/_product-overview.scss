@@ -1,20 +1,6 @@
 
-.pdspace{
-    padding-bottom: 80px;
-    padding-top:80px;
-}
-
-.mgbspace{
-    margin-bottom:60px;
-}
-
-
 .pagemenu{
-   
-    font-size: 20px;
-    line-height:30px;
     text-decoration:none;
-    margin-bottom: 60px;
     a{
         margin:0 10px;
         color:black;
@@ -22,26 +8,14 @@
     a:hover{
         color:$lbrown;
         text-decoration:underline;
-    }
-    
+    } 
 }
 
 
 @media (max-width: 767px){
 
-h4{
-    font-size:20px;
-}
+    h4{
+        font-size:20px;
+    }
 
-.pdspace{
-    padding-bottom: 48px;
-    padding-top:42px;
-}
-.mgbspace{
-    margin-bottom:32px;
-}
-
-.pagemenu{
-     margin-bottom: 40px;
-}
 }

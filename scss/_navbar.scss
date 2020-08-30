@@ -17,7 +17,6 @@ body{
 }
 
 .nv_menu_item {
-  margin-right: 32px;
   color: $gray8D;
   display: flex;
   align-items: baseline;
@@ -47,17 +46,11 @@ body{
 
 .bars_menu{
     width:100%;
-    background:gray;
+    background:$gray70;
     text-align:center;
     position:absolute;
     z-index: 1;
-    li{
-        border-bottom:solid white 1px;
-    }
-    a{
-        padding:16px 0;
-         color:white;
-         font-size:20px;
-         line-height:24px;
+    a:hover{
+       background:$gray8D;
     }
 }

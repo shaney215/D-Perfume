@@ -50,6 +50,7 @@ $grayE0:#E0E0E0;
 $gray84:#848484;
 $gray818:#818A91;
 $grayA5:#A5A5A5;
+$gray70:#707070;
 
 $colors: () !default;
 $colors: map-merge(
@@ -163,6 +164,7 @@ $spacers: map-merge(
     10: ($spacer * 2.25),
     11: ($spacer * 2.5),
     5: ($spacer * 3),
+    13: ($spacer * 3.75),
     12:($spacer * 5)
   ),
   $spacers

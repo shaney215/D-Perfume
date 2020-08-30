@@ -1,4 +1,4 @@
 {
-  // "editor.codeActionsOnSave": null,
+//   "editor.codeActionsOnSave": null,
   "liveSassCompile.settings.includeItems": ["scss/index.scss"]
 }
